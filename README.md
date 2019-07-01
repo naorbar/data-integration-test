@@ -16,7 +16,7 @@ The utility will be implemented with [PDI](https://www.hitachivantara.com/en-us/
 1. Use this [link](https://sourceforge.net/projects/pentaho/files/latest/download?aliId=137249511) to download and install [PDI tool](https://community.hitachivantara.com/docs/DOC-1009855-data-integration-kettle) (community edition)
 2. Use this [link](https://dev.mysql.com/downloads/windows/installer/8.0.html) to download and install MySQL database (community edition)
 3. Open the PDI designer and create a new Transformation (ktr file)
-
+   <img src="./images/PDI_HowToCreateNewTransformation.PNG" alt="PDI_HowToCreateNewTransformation.PNG" width="50%" height="50%"/>
 4. Implement a flow based on the following use case:
     1. the user gets a list of accounts from
     2. the user transforms the data and export it to a local database (e.g. MySQL)
