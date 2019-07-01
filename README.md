@@ -1,8 +1,8 @@
-# data-integration-test
+# Data-Integration test for Technical Implementers
 
 ## Overview
 Webpals is looking for an industrial/software/system engineer to be responsible on migrating their exiting CRM solution to Salesforce, and later take ownership on maintaining and implementing new use cases according to the business needs.
-This test checks how the candidate is able to:
+This test checks if the candidate is able to:
  - Understand and follow business requirements
  - Learn quickly new material and tools, such as Data Integration, Database installation and REST interface
  - Work under preasure with a tight schedule
@@ -28,10 +28,11 @@ Follow the next steps to allow PDI to connect with your MySQL database:
 3. Restart PDI to have it load the jdbc driver (jar file)
 4. Set the db connection step (i.e. Table Input or Table Output) with a Generic Connection as shown here:
    <img src="./images/PDI_HowToConfigureDatabaseConnection.PNG" alt="PDI_HowToConfigureDatabaseConnection.PNG" width="50%" height="50%"/>
- - Follow this thread to solve any database time zone issue: https://stackoverflow.com/questions/26515700/mysql-jdbc-driver-5-1-33-time-zone-issue
+5. Follow this thread to solve any database time zone issue: https://stackoverflow.com/questions/26515700/mysql-jdbc-driver-5-1-33-time-zone-issue
  
 ## Additional Requirements:
-1. The test should take ~3 hours to complete; though the completeness of the task should take precedence over the time limitation.
-2. Please submit the solution (ktr script) via email to: naor.b@webpals.com 
+1. The test should take ~3 hours to complete; note that the completeness of the task should take precedence over the time limitation.
+2. You're encouraged to use the internet; feel free to use any **digital** resource in order to quickly solve technical issues or understand the tools you're using.
+3. Please submit the solution (ktr script) via email to: naor.b@webpals.com 
 
 **Goodluck** :+1:
