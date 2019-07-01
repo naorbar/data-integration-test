@@ -23,10 +23,10 @@ The utility will be implemented with [PDI](https://www.hitachivantara.com/en-us/
 
 ### How to set up a connection to MySQL database:
 Follow the next steps to allow PDI to connect with your MySQL database:
- - Get MySQL JDBC driver from [here](https://dev.mysql.com/downloads/connector/j/) 
- - Take the following jar file: mysql-connector-java-8.0.16.jar from the package you just downloaded and put it in PDI lib folder (e.g. pdi-ce-8.2.0.0-342\data-integration\lib)
- - Restart PDI to have it load the jdbc driver (jar file)
- - Set the db connection step (i.e. Table Input or Table Output) with a Generic Connection as shown here:
+1. Get MySQL JDBC driver from [here](https://dev.mysql.com/downloads/connector/j/) 
+2. Take the following jar file: mysql-connector-java-8.0.16.jar from the package you just downloaded and put it in PDI lib folder (e.g. pdi-ce-8.2.0.0-342\data-integration\lib)
+3. Restart PDI to have it load the jdbc driver (jar file)
+4. Set the db connection step (i.e. Table Input or Table Output) with a Generic Connection as shown here:
    <img src="./images/PDI_HowToConfigureDatabaseConnection.PNG" alt="PDI_HowToConfigureDatabaseConnection.PNG" width="50%" height="50%"/>
  - Follow this thread to solve any database time zone issue: https://stackoverflow.com/questions/26515700/mysql-jdbc-driver-5-1-33-time-zone-issue
  
