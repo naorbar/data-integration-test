@@ -20,6 +20,13 @@ The utility will be implemented with [PDI](https://www.hitachivantara.com/en-us/
     2. the user transforms the data and export it to a local database (e.g. MySQL)
 
 ## Additional Requirements:
+Follow the next steps to allow PDI to connect with your MySQL database:
+ - Get MySQL JDBC driver from [here](https://dev.mysql.com/downloads/connector/j/) 
+ - Take the following jar file: mysql-connector-java-8.0.16.jar from the package you just downloaded and put it in PDI lib folder (e.g. pdi-ce-8.2.0.0-342\data-integration\lib)
+ - Restart PDI to have it load the jdbc driver (jar file)
+ - Set the db connection step (i.e. Table Input or Table Output) with a Generic Connection as shown here:
+ <img src="./images/PDI_HowToConfigureDatabaseConnection.PNG" alt="PDI_HowToConfigureDatabaseConnection.PNG" width="50%" height="50%"/>
+
 1. The test should take ~3 hours to complete; though the completeness of the task should take precedence over the time limitation.
 2. Please submit the solution (ktr script) via email to: naor.b@webpals.com 
 
