@@ -23,7 +23,7 @@ The utility will be implemented with [PDI](https://www.hitachivantara.com/en-us/
 
 ## Follow the next steps:
 1. Use this [link](https://sourceforge.net/projects/pentaho/files/latest/download?aliId=137249511) to download and install [PDI tool](https://community.hitachivantara.com/docs/DOC-1009855-data-integration-kettle) (community edition)
-2. Use this [link](https://dev.mysql.com/downloads/windows/installer/8.0.html) to download and install MySQL database (community edition)
+2. Use this [link](https://dev.mysql.com/downloads/windows/installer/8.0.html) to download and install MySQL database server (community edition)
 3. Download the following json [files](https://github.com/naorbar/data-integration-test/tree/master/json-inputs) and use them as inputs: 
    - xxx.json - each file contains an account and additional information about this account
    - countries.json - a json file contains data about countries, e.g. continent, region, population etc.
