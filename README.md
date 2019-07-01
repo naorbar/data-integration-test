@@ -12,7 +12,7 @@ This test checks if the candidate is able to:
 ## Purpose:
 The purpose of the test is to implement a utility which imports data from json files (to simulate a remote server), transforms the data and export it to a local database (e.g. MySQL).
 
-The utility will be implemented with [PDI](https://www.hitachivantara.com/en-us/products/big-data-integration-analytics/pentaho-data-integration.html) (aka Pentaho Data Integration tool)
+The utility will be implemented with [PDI](https://www.hitachivantara.com/en-us/products/big-data-integration-analytics/pentaho-data-integration.html) (aka Pentaho Data Integration tool).
 
 ## Requirements:
 ### Inputs:
