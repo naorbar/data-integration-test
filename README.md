@@ -1,6 +1,6 @@
 # Data-Integration test for Technical Implementers
 
-## Overview
+## Overview:
 Webpals is looking for an industrial/software/system engineer to be responsible on migrating their exiting CRM solution to Salesforce, and later take ownership on maintaining and implementing new use cases according to the business needs.
 This test checks if the candidate is able to:
  - Understand and follow business requirements
@@ -9,22 +9,31 @@ This test checks if the candidate is able to:
  - Activly solve problems independently and efficiently
  - Communicate with co-workers
  
-## Follow the next steps carefully:
-The purpose of the test is to implement a utility which imports data from json files ( to simulate a remote server), transforms the data and export it to a local database (e.g. MySQL).
+## Purpose:
+The purpose of the test is to implement a utility which imports data from json files (to simulate a remote server), transforms the data and export it to a local database (e.g. MySQL).
+
 The utility will be implemented with [PDI](https://www.hitachivantara.com/en-us/products/big-data-integration-analytics/pentaho-data-integration.html) (aka Pentaho Data Integration tool)
 
+## Requirements:
+### Inputs:
+   - Accounts data as multiple json files
+   - Countries data (json file)
+### Outputs:
+   - A database table containing the accounts data (enriched with the countries information) 
+
+## Follow the next steps:
 1. Use this [link](https://sourceforge.net/projects/pentaho/files/latest/download?aliId=137249511) to download and install [PDI tool](https://community.hitachivantara.com/docs/DOC-1009855-data-integration-kettle) (community edition)
 2. Use this [link](https://dev.mysql.com/downloads/windows/installer/8.0.html) to download and install MySQL database (community edition)
 3. Download the following json [files](https://github.com/naorbar/data-integration-test/tree/master/json-inputs) and use them as inputs: 
- - xxx.json - each file contains an account and additional information about this account
- - countries.json - a json file contains data about countries, e.g. continent, region, population etc.
+   - xxx.json - each file contains an account and additional information about this account
+   - countries.json - a json file contains data about countries, e.g. continent, region, population etc.
 4. Open the PDI designer and create a new Transformation (ktr file)
    <img src="./images/PDI_HowToCreateNewTransformation.PNG" alt="PDI_HowToCreateNewTransformation.PNG" width="50%" height="50%"/>
 5. Implement a flow based on the following use case:
     1. The user gets a list of accounts from multiple json files and a list of countries from a countries.json
     2. The user enriches the data of each account with the relevant country details: continent, region etc.
-       hint: use PDI's ['Stream Lookup'](https://wiki.pentaho.com/display/EAI/Stream+Lookup) to merge data from two json inputs 
-    3. The user save the accounts data to a local database table (e.g. MySQL); the output table should look like this:
+       <BR>hint: use PDI's ['Stream Lookup'](https://wiki.pentaho.com/display/EAI/Stream+Lookup) to merge data from two json inputs 
+    3. The user saves the accounts data to a local database table (e.g. MySQL); the output table should look like this:
     <img src="./images/MYSQL_SampleOutput.PNG" alt="MYSQL_SampleOutput.PNG" width="50%" height="50%"/>
     
 ### How to set up a connection to MySQL database:
