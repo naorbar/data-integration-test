@@ -35,7 +35,7 @@ The utility will be implemented with [PDI](https://www.hitachivantara.com/en-us/
        <BR>hint: use PDI's ['Stream Lookup'](https://wiki.pentaho.com/display/EAI/Stream+Lookup) to merge data from two json inputs 
     3. The user saves the accounts data to a local database table (e.g. MySQL); the output table should look like this:
     <img src="./images/MYSQL_SampleOutput.PNG" alt="MYSQL_SampleOutput.PNG" width="50%" height="50%"/>
-    
+
 ### How to set up a connection to MySQL database:
 Follow the next steps to allow PDI to connect with your MySQL database:
 1. Get MySQL JDBC driver from [here](https://dev.mysql.com/downloads/connector/j/) 
@@ -46,8 +46,8 @@ Follow the next steps to allow PDI to connect with your MySQL database:
 5. Follow this thread to solve any database time zone issue: https://stackoverflow.com/questions/26515700/mysql-jdbc-driver-5-1-33-time-zone-issue
  
 ## Additional Requirements:
-1. The test should take ~3-4 hours to complete; note that the completeness of the task should take precedence over the time limitation.
+1. Note that the completeness of the test takes precedence over the time limitation.
 2. You're encouraged to use the internet; feel free to use any **digital** resource in order to quickly solve technical issues or understand the tools you're using.
-3. Please submit the solution (ktr script) via email to: naor.b@webpals.com 
+3. Please submit the solution (ktr script) via email to: naor.b@webpals.com
 
 **Goodluck** :+1:
