@@ -43,7 +43,7 @@ Follow the next steps to allow PDI to connect with your MySQL database:
 3. Restart PDI to have it load the jdbc driver (jar file)
 4. Set the db connection step (i.e. Table Input or Table Output) with a Generic Connection as shown here:
    <img src="./images/PDI_HowToConfigureDatabaseConnection.PNG" alt="PDI_HowToConfigureDatabaseConnection.PNG" width="50%" height="50%"/>
-5. Follow this thread to solve any database time zone issue: https://stackoverflow.com/questions/26515700/mysql-jdbc-driver-5-1-33-time-zone-issue
+5. Follow this stackoverflow thread to solve any database time zone issue: https://stackoverflow.com/questions/26515700/mysql-jdbc-driver-5-1-33-time-zone-issue
  
 ## Additional Requirements:
 1. Note that the completeness of the test takes precedence over the time limitation.
