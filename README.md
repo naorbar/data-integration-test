@@ -1,4 +1,4 @@
-# Data-Integration test for Technical Implementers
+# Data-Integration test for Technical Integrators
 
 ## Overview:
 Webpals is looking for an industrial/software/system engineer to be responsible on migrating their exiting CRM solution to Salesforce, and later take ownership on maintaining and implementing new use cases according to the business needs.
