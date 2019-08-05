@@ -51,4 +51,5 @@ Follow the next steps to allow PDI to connect with your MySQL database:
 3. Please submit the solution (ktr script) via email to: naor.b@webpals.com
 
 **Goodluck** :+1:
-ON MASTER
+
+ON DEVELOP
